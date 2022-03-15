@@ -1,0 +1,120 @@
+*{
+    background-color: rgb(8, 8, 14) !important;
+    color: rgb(218, 248, 233) !important;
+    margin: 0px;
+    padding: 0px;
+}
+
+.chatName{
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    border: solid 1px rgb(215, 228, 43);
+    position: fixed;
+    top: 0px;
+    height: max-content;
+}
+
+.nameC{
+    display: block;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.nickname{
+    margin-bottom: 0px;
+    text-decoration: underline;
+    padding-bottom: 1px;
+    color: rgb(145, 179, 164) !important;
+    font-size: small;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.text{
+    margin-bottom: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.mess{
+    display: block;
+    word-break: break-all;
+    width: max-content;
+    max-width: 400px;
+    padding: 0px 7px 1px 7px;
+    margin: 0px 0px 15px 10px;
+    border: solid 1px rgb(86, 241, 112);
+    border-radius: 10px;
+}
+
+.right{
+    margin-left: auto;
+}
+
+.first{
+    margin-top: 50px;
+}
+
+.last{
+    margin-bottom: 13%;
+}
+
+.sendM{
+    box-sizing: border-box;
+}
+
+.write{
+    display: flex;
+    text-align: center;
+    max-width: 600px;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0px;
+}
+
+textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    height: 40px;
+}
+
+@media (min-width: 400px) {
+    .list{
+        display: block;
+        min-width: 400px;
+        max-width: 600px;
+        width: max-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .list{
+        display: block;
+        width: 100vw;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.mesSend{
+    border-color: rgb(215, 228, 43);
+    color: rgb(215, 228, 43) !important;
+    margin-bottom: 5px;
+}
+
+.mesSend:hover{
+    color: rgb(86, 241, 112) !important;
+    border-color: rgb(86, 241, 112);
+}
+
+.ex{
+    display: block;
+}
+
+.chatName form{
+    display: flex;
+}

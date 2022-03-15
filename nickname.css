@@ -1,0 +1,31 @@
+*{
+    background-color: rgb(208, 180, 252) !important;
+}
+
+.entN{
+    font-size: large;
+    text-transform: uppercase;
+    color: rgb(33, 25, 46);
+    font-weight: bold;
+}
+
+.inpN{
+    background-color: rgb(155, 132, 177) !important;
+    border: solid 2px;
+    outline: none;
+    width: 250px !important;
+    border-color: rgb(33, 25, 46) !important;
+}
+
+.mySend{
+    border-color: rgb(33, 25, 46) !important;
+    color: rgb(33, 25, 46) !important;
+}
+
+.mySend:hover{
+    color: #fff !important;
+}
+
+input{
+    box-shadow: none !important;
+}
